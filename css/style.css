@@ -289,12 +289,19 @@ section{
 }
 
 .price .box-container .box .title{
-    background:var(--main-color);
     color:#fff;
     padding:1.5rem 0;
     font-size: 2rem;
 }
-
+.price .box-container .box .title_bronze {
+    background: #CD7F32;
+}
+.price .box-container .box .title_silver {
+    background: #C4CACE;
+}
+.price .box-container .box .title_gold {
+    background: gold;
+}
 .price .box-container .box .amount{
     color:#fff;
     padding-top: 2rem;
@@ -459,6 +466,7 @@ section{
     z-index: 1000;
     width: 20rem;
     text-align: center;
+    border-bottom-left-radius: 20px;
 }
 
 .theme-toggler.active{
@@ -492,6 +500,8 @@ section{
     padding:1.3rem 1.5rem;
     background:#333;
     cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .theme-toggler .toggle-btn i{
